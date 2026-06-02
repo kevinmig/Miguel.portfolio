@@ -73,4 +73,4 @@ My goal is to become a professional software developer who builds meaningful and
 - 📍 Location: Panabo City, Davao del Norte, Philippines  
 - 🌐 Portfolio: https://sites.google.com/view/kevin-miguel-portfolios/home  
 - 💼 LinkedIn: https://www.linkedin.com/in/kevin-miguel-2151  
-- 
+  
