@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Kevin Miguel | Student Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f1f5f9;
+    color:#1e293b;
+}
+
+/* NAVIGATION */
+nav{
+    background:#0f172a;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1000;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+nav h2{
+    color:#38bdf8;
+    font-size:28px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+/* HOME */
+.home{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(to right,#0f172a,#1e293b);
+    color:white;
+    padding:20px;
+}
+
+.profile-pic{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    border:6px solid #38bdf8;
+    object-fit:cover;
+    margin-bottom:20px;
+    box-shadow:0 0 25px rgba(56,189,248,0.5);
+    transition:0.3s;
+}
+
+.profile-pic:hover{
+    transform:scale(1.05);
+}
+
+.home h1{
+    font-size:50px;
+}
+
+.home h3{
+    color:#38bdf8;
+    margin-top:10px;
+}
+
+.home p{
+    max-width:700px;
+    margin-top:20px;
+    line-height:1.7;
+}
+
+.btn{
+    margin-top:25px;
+    padding:12px 30px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0ea5e9;
+}
+
+/* SECTIONS */
+section{
+    padding:100px 10%;
+}
+
+section h2{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+/* ABOUT */
+.about-box{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    line-height:1.8;
+}
+
+/* SKILLS */
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.skill:hover{
+    background:#38bdf8;
+    color:white;
+    transform:translateY(-5px);
+}
+
+/* PROJECTS */
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.project:hover{
+    transform:scale(1.03);
+}
+
+.project h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+/* CONTACT */
+.contact{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+    <h2>KEVIN M.</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section class="home" id="home">
+
+    <img src="profile.jpg" class="profile-pic" alt="Profile">
+
+    <h1>KEVIN MIGUEL</h1>
+    <h3>Information Systems Student</h3>
+
+    <p>
+        Welcome to my portfolio! I am an Information Systems student
+        from Panabo City, Davao del Norte, passionate about software
+        development, web development, and system design.
+    </p>
+
+    <a href="https://github.com/YOUR_USERNAME" class="btn">Visit My GitHub</a>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="about-box">
+
+<p>
+Hello! I am <strong>Kevin Miguel</strong>, a BS Information Systems student.
+I am passionate about programming, system development, and database management.
+</p>
+
+<br>
+
+<p>
+I enjoy building projects such as management systems and web applications.
+I am currently learning Java, HTML, CSS, JavaScript, and MySQL.
+</p>
+
+<br>
+
+<p>
+My goal is to become a professional software developer and create
+meaningful systems that solve real-world problems.
+</p>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+    <div class="skill">Java</div>
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">MySQL</div>
+    <div class="skill">GitHub</div>
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Student Information System</h3>
+<p>Role-based system with CRUD operations and authentication.</p>
+</div>
+
+<div class="project">
+<h3>Payroll System</h3>
+<p>Automated payroll system with attendance and salary computation.</p>
+</div>
+
+<div class="project">
+<h3>BPM Project</h3>
+<p>Business process documentation and workflow analysis.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="contact">
+<p><strong>Email:</strong> kevin.miguel.b16@gmail.com</p>
+<p><strong>Location:</strong> Panabo City, Davao del Norte</p>
+<p><strong>LinkedIn:</strong> linkedin.com/in/kevin-miguel-2151</p>
+<p><strong>GitHub:</strong> github.com/YOUR_USERNAME</p>
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+© 2026 Kevin Miguel | All Rights Reserved
+</footer>
+
+</body>
+</html>
