@@ -69,7 +69,8 @@ My goal is to become a professional software developer who builds meaningful and
 
 ## Contact
 
-- Email: **kevin.miguel.b16@gmail.com**  
-- Location: Panabo City, Davao del Norte, Philippines  
-- Portfolio: https://sites.google.com/view/kevin-miguel-portfolios/home  
-- GitHub: https://github.com/YOUR_USERNAME  
+- 📧 Email: **kevin.miguel.b16@gmail.com**  
+- 📍 Location: Panabo City, Davao del Norte, Philippines  
+- 🌐 Portfolio: https://sites.google.com/view/kevin-miguel-portfolios/home  
+- 💼 LinkedIn: https://www.linkedin.com/in/kevin-miguel-2151  
+- 
